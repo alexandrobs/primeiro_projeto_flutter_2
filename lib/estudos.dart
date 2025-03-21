@@ -23,4 +23,11 @@ void main() {
   var total = salario + bonus;
   print("O salário é: $total");
 
+  String email = "jornalsinal@gmail.com";
+  int numero = 50;
+  double preco = 19.99;
+  bool acesso = true;
+  
+  print("Email: $email, número: $numero, preço: $preco, acesso: $acesso");
+
 }
