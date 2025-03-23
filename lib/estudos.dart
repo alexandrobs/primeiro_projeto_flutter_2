@@ -103,5 +103,29 @@ void main() {
   !
    */
   print(!(5==5));
+
+  /*Controle de fluxo
+  if
+  else
+   */
+  var numero1 = 10;
+  var numero3 = 5;
+
+  if( numero1 == numero3 ){
+    print("é igual");
+  } else {
+    print("não é igual");
+  }
+
+  var idade = 39;
+  if( idade < 14 ){
+    print("criança");
+  } else if (idade >= 14 && idade <= 17){
+    print("adolescente");
+  } else if (idade >= 18 && idade <= 22){
+    print("maior de idade até 22 anos de idade");
+  } else {
+    print("adulto");
+  }
   
 }
