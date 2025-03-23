@@ -127,5 +127,19 @@ void main() {
   } else {
     print("adulto");
   }
-  
+
+  //switch
+  var comando = "teste";
+
+  switch( comando ){
+    case "depositar" :
+      print("Depositar valor");
+      break;
+    case "sacar" :
+      print("Sacar valor");
+      break;
+    default :
+      print("Nenhuma opção válida");
+  }
+
 }
