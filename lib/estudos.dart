@@ -65,4 +65,43 @@ void main() {
   numero2--;
   print(numero2);
 
+  /*Operadores relacionais
+  ==
+  !=
+  >
+  <
+  >=
+  <=
+   */
+
+  var numeroTeste = 10;
+  print(5 == numeroTeste);
+  print(5 != numeroTeste);
+  print(5 > numeroTeste);
+  print(5 < numeroTeste);
+  print(5 >= numeroTeste);
+  print(5 <= numeroTeste);
+  
+  var notaAluno = 5;
+  bool resultadoAluno = notaAluno >= 6;
+  print(resultadoAluno);
+
+  /*Operadores lógicos
+  &&
+  ||
+   */
+  print(5 == 5 && 6 == 6);
+  print(5 == 8 || 6 == 7);
+  print(5 == 5 || 6 == 9);
+
+  notaAluno = 5;
+  var notaTrabalho = 10;
+  bool resultadoAluno2 = notaAluno >= 6 && notaTrabalho >=9;
+  print(resultadoAluno);
+
+  /*Operador nota (negação)
+  !
+   */
+  print(!(5==5));
+  
 }
