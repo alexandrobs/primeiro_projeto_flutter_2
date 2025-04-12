@@ -142,4 +142,45 @@ void main() {
       print("Nenhuma opção válida");
   }
 
+  //loops, for, while e do while
+  var numeroAulaLoop = 0;
+  while( numeroAulaLoop < 5 ) {
+    numeroAulaLoop++;
+    print(numeroAulaLoop);
+  }
+
+  print("____________");
+  var numeroAulaLoop2 = 6;
+  while( numeroAulaLoop2 > 1 ) {
+    numeroAulaLoop2--;
+    print(numeroAulaLoop2);
+  }
+
+  print("____________");
+  for (int numeroFor = 1; numeroFor <= 5; numeroFor++) {
+    print(numeroFor);
+  }
+
+  print("____________");
+  for (int numeroFor2 = 5; numeroFor2 >= 1; numeroFor2--) {
+    print(numeroFor2);
+  }
+
+  var postagens = [
+    "skajsaksjlaklsjklajsjaklsjlkajslkajslkaj 1",
+    "kasjkajslkajsjaklsjklajsklajslkjaklsjal 2",
+    "aksçlkalsçkalçksalkslkaskalksçal 3"
+  ];
+
+  for(var postagem in postagens) {
+    print("Título: $postagem");
+    print("------");
+  }
+
+  var numeroDo = 1;
+  do {//faça
+    print("Executado $numeroDo");
+    numeroDo++;
+  } while(numeroDo <= 5);//enquanto
+
 }
