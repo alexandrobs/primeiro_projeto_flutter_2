@@ -65,7 +65,8 @@ void main() {
   numero2--;
   print(numero2);
 
-  /*Operadores relacionais
+  /*
+  Operadores relacionais
   ==
   !=
   >
@@ -86,7 +87,8 @@ void main() {
   bool resultadoAluno = notaAluno >= 6;
   print(resultadoAluno);
 
-  /*Operadores lógicos
+  /*
+  Operadores lógicos
   &&
   ||
    */
@@ -99,12 +101,14 @@ void main() {
   bool resultadoAluno2 = notaAluno >= 6 && notaTrabalho >=9;
   print(resultadoAluno);
 
-  /*Operador nota (negação)
+  /*
+  Operador not (negação)
   !
    */
   print(!(5==5));
 
-  /*Controle de fluxo
+  /*
+  Controle de fluxo
   if
   else
    */
